@@ -27,4 +27,4 @@ def message():
     return jsonify(" Hope you are having a good time " +  name + "!!!")
 #  main thread of execution to start the server
 if __name__=='__main__':
-    app.run(host="0.0.0.0",port=80)
+    app.run(debug = True)
