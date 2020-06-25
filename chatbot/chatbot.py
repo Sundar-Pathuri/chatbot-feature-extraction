@@ -87,6 +87,6 @@ def get_response(inputs):
         response = prepare_response(input,features)
         print("response :", response)
         print()
-        # return response,pos_comb
+        return response,pos_comb
 
 get_response(inputs)
